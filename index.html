@@ -5,8 +5,10 @@
       <title>My First Bitstarter</title> 
       <meta name="viewport" content="width-device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-   <!--   <link rel="stylesheet" href= "http://netdna.bootstrapcdn/font-awesome/3.0.2/css/font-awesome.css"> -->
-    <!--  <link rel="srtleshet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css"> -->
+      <link rel="stylesheet" href= "http://netdna.bootstrapcdn/font-awesome/3.0.2/css/font-awesome.css"> 
+      <link rel="srtleshet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css"> 
+      <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+      <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
       <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
       <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
            
@@ -188,9 +190,79 @@
        </div>
     </div>
 
-          
+    <!-- Marketing copy begins -->
+    <!-- httpa://developer.mozilla.org/en_US/docs/Web/CSS/text-align -->
+    <!-- http://twitter.github.io/bootstrap/base.css.html#images -->
+    <!-- http://placehold.it -->
+ 
+    <div class="row-fluid section1">
+       <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="http://placehold.it/480x300">
+       </div>
+       <div clas="span5 copy">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+            diam nonummy nibh euismod tincidunt ut laoreet dolore magna 
+            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis 
+            ostrud exerci tation ullamcorper suscipit lobortis nisl ut a
+            liquip ex ea commodo consequat       
+          </p>
+       </div>
+    </div>
 
+    <div class="row-fluid section2">
+       <div class="span5 offset1 copy copy-right">
+           <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+            diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+            ostrud exerci tation ullamcorper suscipit lobortis nisl ut a
+            liquip ex ea commodo consequat
+          </p>
+       </div>
+       <div class="span5 asset">
+          <img class="img-polaroid" src="http://placehold.it/480x300">
+       </div>
+    </div>
+
+   <!-- Introduce JS using the accordion -->
+   <!-- brings jquery.js and bootstrap.js as dependencies -->
+   <!-- http://twitter.gitgub.io/bootstrap/javascript.html#collapse -->
+
+   <div clas="fluid-row faq">
+      <div class="span10 offset1">
+         <h3>FAQ</h3>
+         <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+               <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseOne">
+                    What does FAQ stand for?
+                  </a>
+               </div>
+               <div id="collapseOne" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                     Frequently Asked Questions
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-group">
+               <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                   What's a frequent;y asked question?
+                  </a>
+               </div>
+               <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                     A question which is commonly asked by the users.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+ 
 
 </body>
-</html>  
-             
+</html>
